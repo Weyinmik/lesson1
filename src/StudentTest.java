@@ -9,5 +9,8 @@ public class StudentTest extends TestCase {
         String secondStudentName = secondStudent.getName();
         assertEquals("Bloo Koo", secondStudentName);
 
+        assertEquals("Jane Doe", student.getName());
+        
+
     }
 }
