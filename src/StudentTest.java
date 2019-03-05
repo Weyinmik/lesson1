@@ -4,6 +4,7 @@ public class StudentTest extends TestCase {
         final String firstStudentName = "Jane Doe";
         Student firstStudent = new Student(firstStudentName);
 
+
         assertEquals(firstStudentName, firstStudent.getName());
 
 
